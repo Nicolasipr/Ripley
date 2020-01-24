@@ -9,15 +9,19 @@
 
 class LinkedList {
 private:
-    Node *head;
+    Node *head, *tail;
 
 public:
     LinkedList();
     ~LinkedList();
+
+    // CRUD
     void addNode(int n_data);
     int find(int k);
+    void displayList();
     void remove(int k);
     void findAndDelete(int k);
+
 
 };
 
