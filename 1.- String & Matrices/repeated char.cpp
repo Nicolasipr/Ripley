@@ -16,7 +16,6 @@ using  namespace std;
  */
 
 bool hasRepeatedChar(string str){
-
     int alphabet = 0; // ABC 32 bit bitmask for 26 charset
 
     if(!str.length()){
