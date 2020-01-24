@@ -33,6 +33,8 @@ bool hasRepeatedChar(string str){
 }
 ```
 
+This Alorithm has complexity of O(N)
+
 ## Problem B
 "Implemente método que decida si un string es una permutación de otro string"
 
@@ -66,3 +68,7 @@ bool hasPermutation(string str1, string str2){
 }
 
 ```
+
+This Algorithm has Complexity of O( N * log_2 (N) ), because that's  what it takes to sort our string, Comparing has O(N), 
+and since Sorting Complexity >> Comparing Complexity, that's our complexixty.
+
