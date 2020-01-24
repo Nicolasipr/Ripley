@@ -26,16 +26,16 @@ $ g++
 
 ## Tasks
 
--[x] Creating Repository
--[ ] 1.a.- Checks if an string has repeated characters
--[ ] 1.b.- Checks if strings is palindrome of another
--[ ] 2.a.- Class node: Simple Linked List
--[ ] 2.b.- Class node: Read and Delete methods
--[ ] 3.a.- Checks if A node is connected to B node 
--[ ] 4.a.- Create Card game Class OOP model
--[ ] 4.b.- Create Parking lot OOP model
--[ ] 5.a.- Ladder Game Algorithm 
--[ ] 5.b.- Explain what's O(n^2)
--[ ] Finishing Document
+- [x] Creating Repository
+- [ ] 1.a.- Checks if an string has repeated characters
+- [ ] 1.b.- Checks if strings is palindrome of another
+- [ ] 2.a.- Class node: Simple Linked List
+- [ ] 2.b.- Class node: Read and Delete methods
+- [ ] 3.a.- Checks if A node is connected to B node 
+- [ ] 4.a.- Create Card game Class OOP model
+- [ ] 4.b.- Create Parking lot OOP model
+- [ ] 5.a.- Ladder Game Algorithm 
+- [ ] 5.b.- Explain what's O(n^2)
+- [ ] Finishing Document
 
 > `LICENSE`, `README.md`
