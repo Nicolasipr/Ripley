@@ -32,3 +32,37 @@ bool hasRepeatedChar(string str){
     }
 }
 ```
+
+## Problem B
+"Implemente método que decida si un string es una permutación de otro string"
+
+In Order to compete this task, our implementation had the following assumptions:
+
+ 1) If both strings are equal means that they are not permutations of themselves
+ 2) If they do not have the same length,  both are different words
+ 3) We're assuming that string are not the same char all along, e.g "aaaaaa" vs "aaaaaa"
+ 4) If both strings  are the same unordered word, means that when sorted, they have to have the same char alignment
+
+```cpp
+
+bool hasPermutation(string str1, string str2){
+
+    if (!str1.compare(str2)){// first and third assumption
+
+        return false;
+    }
+    else if (str1.length() != str2.length()){ // second assumption
+        return false;
+    }
+    else{ // fourth assumption
+
+        sort(str1.begin(), str1.end()); // o( N * log_2 (N) )
+        sort(str2.begin(), str2.end());
+
+        if(str1.compare(str2))
+            return false;
+    }
+    return true;
+}
+
+```
