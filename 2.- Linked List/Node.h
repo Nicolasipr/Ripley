@@ -8,7 +8,13 @@
 
 class Node {
 
+public:
+    int data;
+    Node *next;
+    Node();
+    ~Node();
 };
+
 
 
 #endif //RIPLEY_NODE_H
