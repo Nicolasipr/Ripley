@@ -5,4 +5,6 @@
 #ifndef RIPLEY_REPEATED_CHAR_H
 #define RIPLEY_REPEATED_CHAR_H
 
+bool hasRepeatedChar(std::string);
+
 #endif //RIPLEY_REPEATED_CHAR_H
