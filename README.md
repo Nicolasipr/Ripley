@@ -6,8 +6,13 @@ Ripley's Trainee Admission Test
 
 This repository is meant for Ripley's Trainee Admission Test coordination and pacing.
 
-I'll be using [C++11](https://isocpp.org/), so make sure that you have [g++](https://gcc.gnu.org/) Compatible version running under your machine
-
+I'll be using [C++11](https://isocpp.org/), so make sure that you have [g++](https://gcc.gnu.org/) Compatible version running
+ under your machine if you're considering running into.
+ 
+ 
+ ```
+$ g++ 
+```
 ## Folder Structure
 
     .
@@ -30,6 +35,7 @@ I'll be using [C++11](https://isocpp.org/), so make sure that you have [g++](htt
 -[ ] 4.a.- Create Card game Class OOP model
 -[ ] 4.b.- Create Parking lot OOP model
 -[ ] 5.a.- Ladder Game Algorithm 
--[ ] 5.b.- Explain what's O(n^2 )
+-[ ] 5.b.- Explain what's O(n^2)
+-[ ] Finishing Document
 
 > `LICENSE`, `README.md`
