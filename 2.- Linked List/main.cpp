@@ -12,15 +12,34 @@ int main() {
 
     LinkedList Simple;
 
-    int N; cin >> N;
-    for (int i = 0; i <= N; i++) {
-        Simple.addNode(i);
+    int N;
+    cout << "\nHow many Nodes do you want?" << endl;
+    cin >> N;
+    if(N < 0){
+        cout << "Cannot add a negative sum of nodes..." << endl;
+        return 0;
     }
-    Simple.displayList();
+    else{
 
-    int k; cin >> k;
-    Simple.findAndDelete(k);
+        for (int i = 0; i <= N; i++) {
+            Simple.addNode(i);
+        }
 
-    Simple.displayList();
+        Simple.displayList();
+
+        int k;
+        cout << "What k-th element do you want to find and Remove? " << endl;
+        cin >> k;
+
+        if(k <= 0){
+            cout << "Cannot find nor remove a non-positive k-th position under our Linked List" << endl;
+            return 0;
+        }
+        else{
+            Simple.findAndDelete(k);
+            Simple.displayList();
+        }
+    }
+
     return 0;
 }
