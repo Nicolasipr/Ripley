@@ -1,4 +1,4 @@
-# String and Matrices
+# 2. Linked List
 
 ## Problem A
 "Escriba en su lenguaje favorito una clase Nodo, que represente una lista ligada simple."
