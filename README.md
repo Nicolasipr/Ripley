@@ -34,7 +34,10 @@ $ g++
 - [ ] 3.a.- Checks if A node is connected to B node 
 - [ ] 4.a.- Create Card game Class OOP model
 - [ ] 4.b.- Create Parking lot OOP model
-- [ ] 5.a.- Ladder Game Algorithm 
-- [ ] 5.b.- Explain what's O(n^2)
+- [x] 5.a.- Ladder Game Algorithm 
+- [x] 5.b.- Explain what's O(n^2)
+- [ ] 6.a.- ATM testing
+- [ ] 7.a.- SQL 
+- [ ] 7.b.- Database Normalization
 - [ ] Finishing Document
 
