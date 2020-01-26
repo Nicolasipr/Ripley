@@ -20,7 +20,9 @@ $ g++
     ├── 2.- Linked list         # Linked List Read / Delete f(x) 
     ├── 3.- Graphs & Trees      # Path Algorithm
     ├── 4.- OOP                 # OOP design and implementation
-    ├── 5- Algorithms           # Questions related to Algorithms complexity
+    ├── 5.- Algorithms          # Questions related to Algorithms complexity
+    ├── 6.- Testing             # OOP design and implementation
+    ├── 7.- Database            # Questions related to Algorithms complexity
     └── README.md               # This README
 
 
