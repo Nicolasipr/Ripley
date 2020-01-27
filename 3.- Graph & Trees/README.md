@@ -1,9 +1,23 @@
 # Graph & Trees
 
 ## Problem A
-"Escriba un algoritmo que a determine si dos nodos están conectados. 
+"Es posible representar un grafo con una matriz, como se muestra en el siguiente diagrama:
+
+![graph](./img/graph.png)
+
+Escriba un algoritmo que a determine si dos nodos están conectados. 
 Por ejemplo: El nodo 3 si está conectado con el nodo 0, pero el nodo 0 
 no está conectado con el nodo 3. "
+
+
+In order to solve this problem we noticed that can be solved the given adjacent matrix
+and for that it's well known that we can use Breadth First Search (BFS) to solve this. 
+So we tried that logic into our algorithm, bur instead of doing all vertex and edges, when 
+stop our execution whenever our B node is found
+
+Also we took the liberty to take this assumption:
+1. Given the nodes A nd B, where A and B belongs to the same Graph G, in the case
+that A and B are the same node, they will have state of connected.
 
 
 ```cpp
