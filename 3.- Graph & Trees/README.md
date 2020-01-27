@@ -42,5 +42,20 @@ bool BFS(int A, int B){
 
     return false;
 }
+```
 
+Then we use this peace of code this way, in order to check both nodes from each side:
+
+```cpp
+    cout << "Are Node \"" << A << "\" and node \"" << B << "\" connected? " << endl;
+    if( BFS(A,B) )
+        cout << "R: Yes" << endl;
+    else
+        cout << "R: No" << endl;
+
+    cout << "Are Node \"" << B << "\" and node \"" << A << "\" connected? " << endl;
+    if( BFS(B,A) )
+        cout << "R: Yes" << endl;
+    else
+        cout << "R: No" << endl;
 ```
